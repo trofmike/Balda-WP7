@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextInputApp1", "TextInputApp1\TextInputApp1.csproj", "{1CAADBE8-2AAA-475E-96A3-AF3B8C4092BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CAADBE8-2AAA-475E-96A3-AF3B8C4092BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAADBE8-2AAA-475E-96A3-AF3B8C4092BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAADBE8-2AAA-475E-96A3-AF3B8C4092BE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1CAADBE8-2AAA-475E-96A3-AF3B8C4092BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAADBE8-2AAA-475E-96A3-AF3B8C4092BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAADBE8-2AAA-475E-96A3-AF3B8C4092BE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
