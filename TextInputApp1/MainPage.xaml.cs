@@ -53,5 +53,25 @@ namespace TextInputApp1
                 e.Cancel = true;
             }
         }
+
+        private void ChoosingWordStart(object sender, Microsoft.Phone.Controls.GestureEventArgs e)
+        {
+            e.Handled = false;
+            ((Button)sender).Background = new SolidColorBrush(Colors.Red);
+        }
+        private void ChoosingWordFinish(object sender, Microsoft.Phone.Controls.GestureEventArgs e)
+        {
+            ((Button)sender).Background = new SolidColorBrush(Colors.Transparent);
+        }
+
+        private void GestureListener_Flick(object sender, FlickGestureEventArgs e)
+        {
+            ((Button)sender).Background = new SolidColorBrush(Colors.Transparent);
+        }
+
+        private void GestureListener_DragDelta(object sender, DragDeltaGestureEventArgs e)
+        {
+            
+        }
     }
 }

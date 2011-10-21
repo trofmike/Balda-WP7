@@ -102,9 +102,21 @@
                 <ColumnDefinition Width="90"/>
                 <ColumnDefinition Width="90"/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" Grid.Row="0" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="0" Grid.Row="1" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="0" Grid.Row="2" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
+            <Button Name="Button1" Grid.Column="0" Grid.Row="0" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click">
+                <toolkit:GestureService.GestureListener>
+                    <toolkit:GestureListener Flick="GestureListener_Flick" DragDelta="GestureListener_DragDelta" GestureBegin="ChoosingWordStart" GestureCompleted="ChoosingWordFinish"></toolkit:GestureListener>
+                </toolkit:GestureService.GestureListener>
+            </Button>
+            <Button Name="Button2" Grid.Column="0" Grid.Row="1" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click">
+                <toolkit:GestureService.GestureListener>
+                    <toolkit:GestureListener Flick="GestureListener_Flick" DragDelta="GestureListener_DragDelta" GestureBegin="ChoosingWordStart" GestureCompleted="ChoosingWordFinish"></toolkit:GestureListener>
+                </toolkit:GestureService.GestureListener>
+            </Button>
+            <Button Name="Button3" Grid.Column="0" Grid.Row="2" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click">
+                <toolkit:GestureService.GestureListener>
+                    <toolkit:GestureListener Flick="GestureListener_Flick" GestureBegin="ChoosingWordStart" GestureCompleted="ChoosingWordFinish"></toolkit:GestureListener>
+                </toolkit:GestureService.GestureListener>
+            </Button>
             <Button Grid.Column="0" Grid.Row="3" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
             <Button Grid.Column="0" Grid.Row="4" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
             <Button Grid.Column="1" Grid.Row="0" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
