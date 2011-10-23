@@ -42,41 +42,41 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid x:Name="Alphabet" Visibility="Collapsed" Height="690">
+        <Grid x:Name="Alphabet" Height="690" Visibility="Collapsed">
             <ListBox Margin="12,-3,-12,3">
                 <ListBoxItem Margin="12,20,0,0">
                     <toolkit:WrapPanel HorizontalAlignment="Left" VerticalAlignment="Top">
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="А" Click="Button_Click_1" />
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Б" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="В" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Г" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Д" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Е" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Ж" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="З" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="И" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Й" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="К" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Л" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="М" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Н" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="О" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="П" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Р" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="С" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Т" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="У" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Ф" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Х" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Ц" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Ш" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Щ" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Ь" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Ы" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Ъ" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Э" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Ю" Click="Button_Click_1"/>
-                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0,0,12,12"  Width="99" Height="99" BorderThickness="0" Content="Я" Click="Button_Click_1"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="А" Click="Button_Click_1" FontSize="29.333" />
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Б" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="В" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Г" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Д" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Е" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Ж" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="З" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="И" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Й" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="К" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Л" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="М" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Н" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="О" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="П" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Р" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="С" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Т" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="У" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Ф" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Х" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Ц" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Ш" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Щ" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Ь" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Ы" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Ъ" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Э" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Ю" Click="Button_Click_1" FontSize="29.333"/>
+                        <Button  Background="{StaticResource PhoneAccentBrush}" Margin="0"  Width="110" Height="110" BorderThickness="0" Content="Я" Click="Button_Click_1" FontSize="29.333"/>
                     </toolkit:WrapPanel>
                 </ListBoxItem>
             </ListBox>
@@ -102,43 +102,131 @@
                 <ColumnDefinition Width="90"/>
                 <ColumnDefinition Width="90"/>
             </Grid.ColumnDefinitions>
-            <Button Name="Button1" Grid.Column="0" Grid.Row="0" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click">
-                <toolkit:GestureService.GestureListener>
-                    <toolkit:GestureListener Flick="GestureListener_Flick" DragDelta="GestureListener_DragDelta" GestureBegin="ChoosingWordStart" GestureCompleted="ChoosingWordFinish"></toolkit:GestureListener>
-                </toolkit:GestureService.GestureListener>
+            <Button Grid.Column="0" Grid.Row="0" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
             </Button>
-            <Button Name="Button2" Grid.Column="0" Grid.Row="1" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click">
-                <toolkit:GestureService.GestureListener>
-                    <toolkit:GestureListener Flick="GestureListener_Flick" DragDelta="GestureListener_DragDelta" GestureBegin="ChoosingWordStart" GestureCompleted="ChoosingWordFinish"></toolkit:GestureListener>
-                </toolkit:GestureService.GestureListener>
+            <Button Grid.Column="0" Grid.Row="1" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
             </Button>
-            <Button Name="Button3" Grid.Column="0" Grid.Row="2" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click">
-                <toolkit:GestureService.GestureListener>
-                    <toolkit:GestureListener Flick="GestureListener_Flick" GestureBegin="ChoosingWordStart" GestureCompleted="ChoosingWordFinish"></toolkit:GestureListener>
-                </toolkit:GestureService.GestureListener>
+            <Button Grid.Column="0" Grid.Row="2" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
             </Button>
-            <Button Grid.Column="0" Grid.Row="3" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="0" Grid.Row="4" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="1" Grid.Row="0" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="1" Grid.Row="1" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="1" Grid.Row="2" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="1" Grid.Row="3" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="1" Grid.Row="4" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="2" Grid.Row="0" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="2" Grid.Row="1" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="2" Grid.Row="2" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="2" Name="button1" Grid.Row="3" Content="А" FontSize="24" Width="90" Height="90" Background="{StaticResource PhoneAccentBrush}" Click="Button_Click"/>
-            <Button Grid.Column="2" Grid.Row="4" Content="Б" FontSize="24" Width="90" Height="90" Background="{StaticResource PhoneAccentBrush}" Click="Button_Click"/>
-            <Button Grid.Column="3" Grid.Row="0" Content="А" FontSize="24" Width="90" Height="90" Background="{StaticResource PhoneAccentBrush}" Click="Button_Click"/>
-            <Button Grid.Column="3" Grid.Row="1" Content="Л" FontSize="24" Width="90" Height="90" Background="{StaticResource PhoneAccentBrush}" Click="Button_Click"/>
-            <Button Grid.Column="3" Grid.Row="2" Content="Д" FontSize="24" Width="90" Height="90" Background="{StaticResource PhoneAccentBrush}" Click="Button_Click"/>
-            <Button Grid.Column="3" Grid.Row="3" Content="А" FontSize="24" Width="90" Height="90" Background="{StaticResource PhoneAccentBrush}" Click="Button_Click"/>
-            <Button Grid.Column="3" Grid.Row="4" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="4" Grid.Row="0" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="4" Grid.Row="1" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="4" Grid.Row="2" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="4" Grid.Row="3" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
-            <Button Grid.Column="4" Grid.Row="4" Content="" FontSize="24" Width="90" Height="90" Background="Transparent" Click="Button_Click"/>
+            <Button Grid.Column="0" Grid.Row="3" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="0" Grid.Row="4" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="1" Grid.Row="0" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="1" Grid.Row="1" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="1" Grid.Row="2" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="1" Grid.Row="3" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="1" Grid.Row="4" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="2" Grid.Row="0" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="2" Grid.Row="1" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="2" Grid.Row="2" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="2" Grid.Row="3" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="2" Grid.Row="4" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="3" Grid.Row="0" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="3" Grid.Row="1" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="3" Grid.Row="2" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="3" Grid.Row="3" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="3" Grid.Row="4" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="4" Grid.Row="0" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="4" Grid.Row="1" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="4" Grid.Row="2" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="4" Grid.Row="3" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
+            <Button Grid.Column="4" Grid.Row="4" Content="" FontSize="24" Width="90" Height="90" Click="Button_Click" MouseEnter="Button_MouseEnter" BorderThickness="0">
+            	<Button.Background>
+            		<SolidColorBrush Color="{StaticResource PhoneChromeColor}"/>
+            	</Button.Background>
+            </Button>
         </Grid>
     </Grid>
     <!--Sample code showing usage of ApplicationBar-->

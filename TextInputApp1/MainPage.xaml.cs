@@ -41,6 +41,7 @@ namespace TextInputApp1
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             ((Button)thatSender).Content = ((Button)sender).Content;
+            ((Button)thatSender).Background = new SolidColorBrush(Colors.Green);
             Alphabet.Visibility = (Alphabet.Visibility == Visibility.Visible ? Visibility.Collapsed : Visibility.Visible);
         }
 
@@ -54,24 +55,11 @@ namespace TextInputApp1
             }
         }
 
-        private void ChoosingWordStart(object sender, Microsoft.Phone.Controls.GestureEventArgs e)
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
         {
-            e.Handled = false;
-            ((Button)sender).Background = new SolidColorBrush(Colors.Red);
-        }
-        private void ChoosingWordFinish(object sender, Microsoft.Phone.Controls.GestureEventArgs e)
-        {
-            ((Button)sender).Background = new SolidColorBrush(Colors.Transparent);
+
+            ((Button)sender).Background = new SolidColorBrush(Colors.Blue);
         }
 
-        private void GestureListener_Flick(object sender, FlickGestureEventArgs e)
-        {
-            ((Button)sender).Background = new SolidColorBrush(Colors.Transparent);
-        }
-
-        private void GestureListener_DragDelta(object sender, DragDeltaGestureEventArgs e)
-        {
-            
-        }
     }
 }
