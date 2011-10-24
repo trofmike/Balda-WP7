@@ -57,8 +57,10 @@ namespace TextInputApp1
 
         private void Button_MouseEnter(object sender, MouseEventArgs e)
         {
-
-            ((Button)sender).Background = new SolidColorBrush(Colors.Blue);
+            if (((Button)sender).Content != null)
+            {
+                ((Button)sender).Background = App.Current.Resources["PhoneBorderBrush"] as SolidColorBrush;
+            }
         }
 
     }
