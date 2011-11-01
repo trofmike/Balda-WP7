@@ -8,16 +8,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
-namespace TextInputApp1
+namespace Balda_WP7
 {
-    public partial class MainPage : PhoneApplicationPage
+    public partial class GameField : PhoneApplicationPage
     {
         private object thatSender;
         // Constructor
-        public MainPage()
+        public GameField()
         {
             InitializeComponent();
         }
@@ -29,7 +30,7 @@ namespace TextInputApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (((Button)sender).Content == null) 
+            if (((Button)sender).Content == null)
             {
                 thatSender = sender;
                 Alphabet.Visibility = Visibility.Visible;
@@ -38,7 +39,7 @@ namespace TextInputApp1
 
         private void ApplicationBarIconButton_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
